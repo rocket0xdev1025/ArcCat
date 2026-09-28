@@ -14032,7 +14032,7 @@ function te({ text: e, className: t = `` }) {
   );
 }
 var ne = [`Manifesto`, `Live`, `Race plan`, `FAQ`],
-  re = `0x454368e3c47295e0542174e243a480419c0de3c4`;
+  re = `TBA`;
 
 function ie() {
   let [e, t] = (0, l.useState)(!1);
@@ -14142,7 +14142,7 @@ function ae() {
                 }),
               }),
               (0, N.jsx)(`a`, {
-                href: `https://app.uniswap.org/swap?outputCurrency=0x454368e3c47295e0542174e243a480419c0de3c4&chain=arc`,
+                href: `https://app.uniswap.org/swap?outputCurrency=TBA&chain=arc`,
                 className: `btn btn-primary !min-h-[40px] !px-5 text-[13px]`,
                 children: `Buy $ARCAT`,
               }),
@@ -14182,7 +14182,7 @@ function ae() {
                 "data-reveal": !0,
                 children: [
                   (0, N.jsx)(`a`, {
-                    href: `https://app.uniswap.org/swap?outputCurrency=0x454368e3c47295e0542174e243a480419c0de3c4&chain=arc`,
+                    href: `https://app.uniswap.org/swap?outputCurrency=TBA&chain=arc`,
                     className: `btn btn-primary`,
                     children: `Buy $ARCAT`,
                   }),
@@ -14941,7 +14941,7 @@ function he() {
     })
   );
 }
-var ge = `https://app.uniswap.org/swap?outputCurrency=0x454368e3c47295e0542174e243a480419c0de3c4&chain=arc`,
+var ge = `https://app.uniswap.org/swap?outputCurrency=TBA&chain=arc`,
   _e = (e) =>
     e >= 1
       ? `$` +
@@ -15024,7 +15024,7 @@ function Se() {
     s = async (e = !1) => {
       try {
         let e = await be(
-          `/radar/token/0x454368e3c47295e0542174e243a480419c0de3c4`
+          `/radar/token/TBA`
         );
         if (!o.current) return;
         e && typeof e.price == `number` && (t(e), r(Date.now()));
@@ -15184,8 +15184,8 @@ function Se() {
     ],
   });
 }
-var Ce = `0x454368e3c47295e0542174e243a480419c0de3c4`,
-  we = `https://app.uniswap.org/swap?outputCurrency=0x454368e3c47295e0542174e243a480419c0de3c4&chain=arc`;
+var Ce = `TBA`,
+  we = `https://app.uniswap.org/swap?outputCurrency=TBA&chain=arc`;
 
 function Te() {
   return (0, N.jsx)(`section`, {
@@ -15232,14 +15232,14 @@ function Te() {
               className: `flex items-center gap-3`,
               children: [
                 (0, N.jsx)(`a`, {
-                  href: "https://dexscreener.com/arc/0x454368e3c47295e0542174e243a480419c0de3c4",
+                  href: "https://dexscreener.com/arc/TBA",
                   target: `_blank`,
                   rel: `noopener`,
                   className: `btn btn-ghost !min-h-[40px] !px-5 text-[13px]`,
                   children: `Dexscreener`,
                 }),
                 (0, N.jsx)(`a`, {
-                  href: `https://app.uniswap.org/swap?outputCurrency=0x454368e3c47295e0542174e243a480419c0de3c4&chain=arc`,
+                  href: `https://app.uniswap.org/swap?outputCurrency=TBA&chain=arc`,
                   className: `btn btn-primary !min-h-[40px] !px-5 text-[13px]`,
                   children: `Buy $ARCAT`,
                 }),
@@ -15305,7 +15305,7 @@ function De() {
                 "data-reveal": !0,
                 children: [
                   (0, N.jsx)(`a`, {
-                    href: `https://app.uniswap.org/swap?outputCurrency=0x454368e3c47295e0542174e243a480419c0de3c4&chain=arc`,
+                    href: `https://app.uniswap.org/swap?outputCurrency=TBA&chain=arc`,
                     className: `btn btn-primary !min-h-[37px] !px-[15px] text-[11.5px]`,
                     children: `Buy $ARCAT`,
                   }),
@@ -15323,19 +15323,19 @@ function De() {
     ],
   });
 }
-var Oe = `0x454368e3c47295e0542174e243a480419c0de3c4`,
+var Oe = `TBA`,
   ke = [
     {
       Icon: R,
       label: `X / Twitter`,
-      sub: `@arcatlive`,
-      href: `https://x.com/arcatlive`,
+      sub: `@ARCAT_x`,
+      href: `https://x.com/ARCAT_x`,
     },
     {
       Icon: j,
       label: `Dexscreener`,
       sub: `Live chart and trades`,
-      href: `https://dexscreener.com/arc/0x454368e3c47295e0542174e243a480419c0de3c4`,
+      href: `https://dexscreener.com/arc/TBA`,
     },
   ],
   Ae = [
